@@ -1,8 +1,9 @@
 import React from 'react'
+import Container from '../components/Container'
 
 const MissionVision = () => {
   return (
-    <div>MissionVision</div>
+    <Container>MissionVision</Container>
   )
 }
 

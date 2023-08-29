@@ -1,8 +1,9 @@
 import React from 'react'
+import Container from '../components/Container'
 
 const WhatIsBSCpE = () => {
   return (
-    <div>WhatIsBSCpE</div>
+    <Container>WhatIsBSCpE</Container>
   )
 }
 

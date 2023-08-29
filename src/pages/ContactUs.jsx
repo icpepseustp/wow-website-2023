@@ -1,8 +1,9 @@
 import React from 'react'
+import Container from '../components/Container'
 
 const ContactUs = () => {
   return (
-    <div>ContactUs</div>
+    <Container>ContactUs</Container>
   )
 }
 

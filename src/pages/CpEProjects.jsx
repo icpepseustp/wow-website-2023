@@ -1,8 +1,9 @@
 import React from 'react'
+import Container from '../components/Container'
 
 const CpEProjects = () => {
   return (
-    <div>CpEProjects</div>
+    <Container>CpEProjects</Container>
   )
 }
 

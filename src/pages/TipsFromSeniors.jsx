@@ -1,8 +1,9 @@
 import React from 'react'
+import Container from '../components/Container'
 
 const TipsFromSeniors = () => {
   return (
-    <div>TipsFromSeniors</div>
+    <Container>TipsFromSeniors</Container>
   )
 }
 
