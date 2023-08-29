@@ -1,17 +1,24 @@
 import './App.css'
-import {  gradientBg } from './utils/gradientbg'
-import { faculty } from './utils/data/faculty';
-import Test from './pages/Test';
 import PressStart from './pages/PressStart';
-import Container from './components/Container';
+import MissionVision from './pages/MissionVision';
+import WhatIsBSCpE from './pages/WhatIsBSCpE';
+import FacultyMembers from './pages/FacultyMembers';
+import CpEProjects from './pages/CpEProjects';
+import TipsFromSeniors from './pages/TipsFromSeniors';
+import BeOurPeer from './pages/BeOurPeer';
+import ContactUs from './pages/ContactUs';
 
 function App() {
-  const _gradientBg = gradientBg();
-  console.log(faculty);
   return (
     <>      
       <PressStart/>
-      <Test/>
+      <MissionVision/>
+      <WhatIsBSCpE/>
+      <FacultyMembers/>
+      <CpEProjects/>
+      <TipsFromSeniors/>
+      <BeOurPeer/>
+      <ContactUs/>
     </>
   )
 }
