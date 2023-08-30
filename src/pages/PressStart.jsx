@@ -4,8 +4,9 @@ import { icpep, wow } from '../utils/data/icpep';
 
 const PressStart = () => {
     const _gradientBg = gradientBg();
+
     return (
-        <div className={`static flex justify-center text-white items-center min-h-screen w-full ${_gradientBg} bg-nebula bg-contain`}>
+        <div className={`static flex justify-center text-white items-center min-h-screen w-full ${_gradientBg} bg-nebula bg-center bg-cover `}>
             <div className="absolute top-0 lg:top-0 lg:right-0 p-16">
                 <img width={150} src={`${icpep.logo}`} alt="" />
             </div>
