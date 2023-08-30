@@ -8,7 +8,7 @@ const TipsFromSeniors = () => {
 	const _gradientBg = gradientBg();
 	return (
 		<div
-			className={`flex justify-center items-center ${_gradientBg} w-full px-4 md:px-20 lg:px-32`}
+			className={`flex justify-center items-center ${_gradientBg} w-full py-16 lg:py-32 px-4 md:px-20 lg:px-32`}
 		>
 			<div className="">
 				<div className="py-4 lg:py-8">
