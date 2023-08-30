@@ -16,7 +16,11 @@ export default {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'nebula': "url('https://res.cloudinary.com/dyi2sla5u/image/upload/v1693321577/assets/graphics/brtrkoyetfcbzceauqgd.gif')"
+        'nebula': "url('https://res.cloudinary.com/dyi2sla5u/image/upload/v1693321577/assets/graphics/brtrkoyetfcbzceauqgd.gif')",
+        'gridBg':"url('https://res.cloudinary.com/dyi2sla5u/image/upload/v1693321576/assets/graphics/bdngtjvgnel3jtca8vwt.png')"
+      },
+      scale: {
+        '-100': '-1'
       }
     },
   },
