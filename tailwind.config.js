@@ -10,7 +10,9 @@ export default {
         'bricksans': ['BrickSans'],
       },
       colors: {
-
+        'light': '#343cff',
+        'dark': '#0d0149',
+        'pale': '#9f8bff'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
