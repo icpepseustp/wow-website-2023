@@ -6,12 +6,12 @@ const TipCard = ({ dark, message, senior_name, senior_age }) => {
 		: 'bg-[#FFFFFF] text-dark border-2 border-dark';
 
 	return (
-		<div className={`w-full`}>
+		<div className={`flex justify-center`}>
 			<div
-				className={`flex items-center ${cardColor} rounded-lg my-4 px-4 lg:px-8 min-w-full min-h-[200px] lg:min-w-[300px] lg:min-h-[300px] max-h-[350px] max-w-[350px] `}
+				className={`flex ${cardColor} rounded-lg my-4 px-4 lg:px-8 w-[350px] min-h-[300px]  `}
 			>
-				<div className="flex flex-col ">
-					<p className="overflow-hidden font-garet my-3 font-semibold text-lg lg:text-xl">
+				<div className="flex flex-col gap-y-6 justify-center">
+					<p className="overflow-hidden font-garet font-semibold text-lg lg:text-xl">
 						"{message}"
 					</p>
 					<p className="font-arcade font-semibold lg:text-2xl">
