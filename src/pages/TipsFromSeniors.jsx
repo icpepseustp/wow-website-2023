@@ -1,17 +1,21 @@
 import React from 'react';
-import Container from '../components/Container';
-import TipCard from '../components/TipCard';
 import TipsSlider from '../components/TipsSlider';
-import { gradientBg } from '../utils/gradientbg';
 
 const TipsFromSeniors = () => {
-	const _gradientBg = gradientBg();
 	return (
 		<div
-			className={`flex justify-center items-center ${_gradientBg} w-full px-4 md:px-20 lg:px-32`}
+			data-aos="fade-up"
+			data-aos-duration="1000"
+			data-aos-delay="50"
+			className={`flex justify-center items-center bg-dark w-full px-4 md:px-20 lg:px-32`}
 		>
-			<div className="">
-				<div className="py-4 lg:py-8">
+			<div>
+				<div
+					data-aos="fade-down"
+					data-aos-duration="1000"
+					data-aos-delay="50"
+					className="py-4 lg:py-8"
+				>
 					<h1 className="text-center text-xl md:text-2xl lg:text-4xl font-bricksans text-white">
 						A tip from your seniors...
 					</h1>
