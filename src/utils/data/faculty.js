@@ -6,10 +6,10 @@ export const faculty = [
         "photo_url": "https://res.cloudinary.com/dyi2sla5u/image/upload/v1693321344/assets/faculty/zcvy48bo8rpffw6kxmp0.jpg"
     },
     {
-        "name": "Engr. Aileen A. Sieras",
+        "name": "Engr. Sprintszie Maye Garrucha",
         "position": "Coordinator",
-        "degree": "Master of Engineering Major in Computer Engineering",
-        "photo_url": "https://res.cloudinary.com/dyi2sla5u/image/upload/v1693321342/assets/faculty/qrkdkitz7rny8gkzvieq.jpg"
+        "degree": "Bachelor of Science in Computer Engineering",
+        "photo_url": "https://res.cloudinary.com/dyi2sla5u/image/upload/v1693321344/assets/faculty/iqlzurpj5thk9aemiaqu.jpg"
     },
     {
         "name": "Engr. Miriam S. Bergado",
@@ -48,10 +48,10 @@ export const faculty = [
         "photo_url": "https://res.cloudinary.com/dyi2sla5u/image/upload/v1693321344/assets/faculty/rm1rqkgycwlxvjmkpf8o.jpg"
     },
     {
-        "name": "Engr. Sprintszie Maye Garrucha",
-        "position": "COS Faculty",
-        "degree": "Bachelor of Science in Computer Engineering",
-        "photo_url": "https://res.cloudinary.com/dyi2sla5u/image/upload/v1693321344/assets/faculty/iqlzurpj5thk9aemiaqu.jpg"
+        "name": "Engr. Aileen A. Sieras",
+        "position": "Faculty",
+        "degree": "Master of Engineering Major in Computer Engineering",
+        "photo_url": "https://res.cloudinary.com/dyi2sla5u/image/upload/v1693321342/assets/faculty/qrkdkitz7rny8gkzvieq.jpg"
     },
     {
         "name": "Engr. Darwin Jone Jupiter",
