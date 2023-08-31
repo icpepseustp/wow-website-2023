@@ -85,18 +85,18 @@ const FacultyMembers = () => {
   return (
     <Container>
       <div className='flex flex-col relative h-screen bg-[#EFECFF] text-[#000668] justify-center items-center'>
-        <h1 className='font-bricksans lg:text-[50px] lg:mb-14 md:text-[35px] text-2xl mb-8'>Faculty Members</h1>
+        <h1 className='font-bricksans lg:text-5xl lg:mb-14 md:text-[35px] text-2xl mb-8'>Faculty Members</h1>
 
         <div className={`${changeOp} flex flex-col items-center gap-y-4`}>
           <div className='lg:grid md:grid lg:grid-cols-4 md:grid-cols-2 flex gap-x-12'>
             {faculty.slice((index * cols[screen]), ((index * cols[screen]) + cols[screen])).map((f) => {
-              return <img className='object-fill w-full lg:h-[200px] md:h-[200px] h-[250px] border-4 border-[#000668] rounded-[25px]' src={f['photo_url']} alt={f['name']} />
+              return <img className='object-fill w-full lg:h-52 md:h-52 h-60 border-4 border-[#000668] rounded-[25px]' src={f['photo_url']} alt={f['name']} />
             })}
           </div>
           <div className='lg:grid lg:grid-cols-4 md:grid-cols-2 md:gap-x-12 lg:gap-x-12 flex'>
             {faculty.slice((index * cols[screen]), ((index * cols[screen]) + cols[screen])).map((f, i) => {
               return (
-                <div className='lg:h-[180px] lg:w-[200px] md:w-[200px] h-[190px] w-[250px] relative overflow-hidden rounded-[15px]'>
+                <div className='lg:h-48 lg:w-53 md:w-52 h-48 w-60 relative overflow-hidden rounded-[15px]'>
                   <div className={`flex flex-col h-full items-center w-full ${down} bg-[#D0C6FF] rounded-[15px]`}>
                     <div className='flex justify-center items-center h-14 w-full p-4 bg-[#343CFF] rounded-[15px]'>
                       <h1 className={`font-arcade text-lg leading-none ${changeOp} text-center text-white`} >{f['name']}</h1>
