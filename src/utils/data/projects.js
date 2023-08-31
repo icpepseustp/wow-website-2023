@@ -40,18 +40,7 @@ export const projects = [
 		creator:
 			'Alfranciss W. Dionsay, Nimfa Mae M. Sumalinog, Mill Victory G. Semaña, Aila Marie P. Casing',
 		type: 'Mobile Application',
-		tech: [
-			'Android Studio',
-			'Python',
-			'Tensorflow Lite',
-			'Flutter',
-			'Dart',
-			'Open Street Map',
-			'Open Route Services',
-			'OpenWeatherMap',
-			'JupyterLab',
-			'Roboflow',
-		],
+		tech: ['Python', 'Tensorflow Lite', 'Flutter', 'Dart', 'Open Street Map'],
 	},
 	{
 		title: 'Rose Cosmetics POS Application',
