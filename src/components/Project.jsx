@@ -4,32 +4,32 @@ import ProjectPhotoSlider from './ProjectPhotoSlider';
 
 const Project = ({ project }) => {
 	return (
-		<div className="flex justify-center">
-			<div className="grid grid-cols-1 lg:grid-cols-2 gap-x-4 px-2 lg:w-3/4 text-white">
-				<div className="flex justify-center lg:justify-end w-full">
-					<div className="overflow-y-hidden ">
+		<div className="flex justify-center items-center">
+			<div className="grid grid-cols-1 lg:grid-cols-2 gap-x-4 px-2  text-white">
+				<div className="lg:w-5/6">
+					<div className="flex justify-center overflow-y-hidden">
 						<ProjectPhotoSlider projectPhotos={project.photos} />
 					</div>
 				</div>
-				<div className="flex flex-col items-center py-8 lg:py-4 ">
-					<div className="flex flex-col gap-y-4 py-2">
-						<h3 className="font-arcade  uppercase text-xl lg:text-3xl lg:text-left">
+				<div className="flex flex-col justify-center py-8 lg:py-4 ">
+					<div className="flex flex-col items-center lg:items-start gap-y-4 py-2 lg:w-5/6">
+						<h3 className="font-arcade  uppercase text-2xl lg:text-4xl lg:text-left">
 							{project.title}
 						</h3>
-						<p className="font-garet text-justify text-sm max-w-[550px] lg:w-full">
+						<p className="font-garet text-sm lg:text-lg text-justify w-full">
 							{project.description}
 						</p>
 
-						<div className="flex flex-col items-start gap-y-3 py-3">
+						<div className="flex flex-col items-start gap-y-3 py-3 w-full">
 							<p>
 								<strong>Type: </strong>
 								{project.type}
 							</p>
 							<div className="flex">
-								<p className="font-bold">Tech: </p>
-								<div className="flex items-center">
+								<p className="font-bold mr-2">Tech: </p>
+								<div className="flex flex-wrap gap-2 items-center">
 									{project.tech.map((tc) => (
-										<div className=" flex items-center bg-light mx-1 px-3 h-[24px] text-sm rounded-xl">
+										<div className=" flex items-center bg-light px-3 min-h-[24px] text-sm rounded-xl">
 											{`${tc}`}{' '}
 										</div>
 									))}

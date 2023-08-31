@@ -14,9 +14,9 @@ const ProjectPhotoSlider = ({ projectPhotos }) => {
 			transitionTime={1000}
 		>
 			{projectPhotos.map((photo) => (
-				<div className="flex justify-center items-center shadow-md">
+				<div className="flex items-center lg:justify-end shadow-md">
 					<img
-						className="object-cover max-w-[560px] h-[250px] lg:h-[400px]"
+						className="object-contain max-w-[600px] h-[250px] lg:h-[500px]"
 						src={`${photo}`}
 						alt=""
 					/>

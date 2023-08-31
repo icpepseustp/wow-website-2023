@@ -8,7 +8,7 @@ const ProjectsSlider = () => {
 		<Carousel
 			autoPlay
 			swipeable
-			interval={12000}
+			interval={15000}
 			infiniteLoop
 			showArrows={false}
 			showStatus={false}
