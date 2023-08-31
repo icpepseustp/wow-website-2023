@@ -84,18 +84,15 @@ const FacultyMembers = () => {
 
   return (
     <Container>
-      <div className='flex flex-col relative h-screen bg-[#EFECFF] text-[#000668] items-center'>
-        <h1 className='font-bricksans lg:text-[50px] lg:my-8 md:text-[35px] md:my-6 md:mt-8 text-2xl my-4 mt-8'>Faculty Members</h1>
+      <div className='flex flex-col relative h-screen bg-[#EFECFF] text-[#000668] justify-center items-center'>
+        <h1 className='font-bricksans lg:text-[50px] lg:mb-14 md:text-[35px] text-2xl mb-8'>Faculty Members</h1>
 
-        <div className='flex flex-col items-center gap-y-2'>
-          <Carousel
-            className={`${changeOp}`} on showIndicators={true} showThumbs={false} showStatus={false}>
-            <div className='lg:grid md:grid lg:grid-cols-4 md:grid-cols-2 flex gap-x-12'>
-              {faculty.slice((index * cols[screen]), ((index * cols[screen]) + cols[screen])).map((f) => {
-                return <img className='object-fill w-full lg:h-[200px] md:h-[200px] h-[250px] border-4 border-[#000668] rounded-[25px]' src={f['photo_url']} alt={f['name']} />
-              })}
-            </div>
-          </Carousel>
+        <div className={`${changeOp} flex flex-col items-center gap-y-4`}>
+          <div className='lg:grid md:grid lg:grid-cols-4 md:grid-cols-2 flex gap-x-12'>
+            {faculty.slice((index * cols[screen]), ((index * cols[screen]) + cols[screen])).map((f) => {
+              return <img className='object-fill w-full lg:h-[200px] md:h-[200px] h-[250px] border-4 border-[#000668] rounded-[25px]' src={f['photo_url']} alt={f['name']} />
+            })}
+          </div>
           <div className='lg:grid lg:grid-cols-4 md:grid-cols-2 md:gap-x-12 lg:gap-x-12 flex'>
             {faculty.slice((index * cols[screen]), ((index * cols[screen]) + cols[screen])).map((f, i) => {
               return (
