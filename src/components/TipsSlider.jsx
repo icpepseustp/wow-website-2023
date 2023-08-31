@@ -13,6 +13,8 @@ const TipsSlider = () => {
 			interval={4000}
 			showIndicators={false}
 			transitionTime={1000}
+			preventMovementUntilSwipeScrollTolerance={true}
+			swipeScrollTolerance={50}
 		>
 			{seniorTips.map((tip) => (
 				<div>

@@ -8,7 +8,7 @@ const PressStart = () => {
 
 	return (
 		<div
-			data-aos="fade-in"
+			data-aos="fade-down"
 			data-aos-duration="1000"
 			data-aos-delay="50"
 			className={`static flex justify-center text-white items-center min-h-screen w-full ${_gradientBg} bg-nebula bg-center bg-cover `}
