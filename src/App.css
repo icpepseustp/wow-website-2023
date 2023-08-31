@@ -1,9 +1,3 @@
-.bg-nebula {
-    background-image: url("https: //res.cloudinary.com/dyi2sla5u/image/upload/v1693321577/assets/graphics/brtrkoyetfcbzceauqgd.gif");
-    background-size: cover;
-    background-position: center;
-}
-
 .text-op {
     animation: textop 3.5s ease-in-out;
 }
