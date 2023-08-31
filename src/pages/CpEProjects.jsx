@@ -10,7 +10,12 @@ const CpEProjects = () => {
 		<div
 			className={`flex flex-col justify-center items-center w-full pt-16 lg:pt-24 ${gradientBg()}`}
 		>
-			<div className="relative text-white mt-16 mb-8">
+			<div
+				data-aos="fade-right"
+				data-aos-duration="1000"
+				data-aos-delay="50"
+				className="relative text-white mt-16 mb-8"
+			>
 				<h1 className="font-bricksans text-3xl">CpE Projects</h1>
 				<p className="text-[#f37925] text-2xl">
 					....................................................

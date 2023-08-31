@@ -4,7 +4,12 @@ import ProjectPhotoSlider from './ProjectPhotoSlider';
 
 const Project = ({ project }) => {
 	return (
-		<div className="flex justify-center items-center">
+		<div
+			data-aos="fade-in"
+			data-aos-duration="1000"
+			data-aos-delay="50"
+			className="flex justify-center items-center"
+		>
 			<div className="grid grid-cols-1 lg:grid-cols-2 gap-x-4 px-2  text-white">
 				<div className="lg:w-5/6">
 					<div className="flex justify-center overflow-y-hidden">
