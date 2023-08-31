@@ -1,5 +1,45 @@
-/* .bg-nebula {
-    background-image: url("https: //res.cloudinary.com/dyi2sla5u/image/upload/v1693321577/assets/graphics/brtrkoyetfcbzceauqgd.gif");
-    background-size: cover;
-    background-position: center;
-} */
+.text-op {
+    animation: textop 3.5s ease-in-out;
+}
+
+.move-down{
+    animation: movedown 3s ease-in-out;
+}
+
+.image-slide{
+    animation: 3s slide-left;
+}
+
+ @keyframes movedown{ 
+    0% {
+        margin-top:0px;
+    }
+    50% {
+        margin-top:134px; 
+    }
+    100% {
+        margin-top: 0px;
+        
+    }
+ }
+ 
+ @keyframes textop{ 
+    0% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;        
+    }
+ }
+
+ @keyframes slide-left {
+    from {
+      margin-left: 0%;
+    }
+    to {
+      margin-left: -100%;
+    }
+  }
